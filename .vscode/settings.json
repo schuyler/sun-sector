@@ -1,0 +1,5 @@
+{
+  "jasmineExplorer.config": "jasmine.json",
+  "jasmineExplorer.nodeArgv": ["-r", "ts-node/register"],
+  "editor.rulers": [80, 120]
+}

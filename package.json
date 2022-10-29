@@ -1,0 +1,22 @@
+{
+  "name": "sun-sector",
+  "version": "1.0.0",
+  "description": "Calculate solar azimuth & elevation given location and time.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.3.0",
+    "jasmine": "^4.5.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.4"
+  }
+}
